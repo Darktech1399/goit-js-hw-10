@@ -23,9 +23,9 @@ function chooseBreed(data) {
       breedSelect.insertAdjacentHTML('beforeend', optionsMarkup);
 
       new SlimSelect({
-        select: breedSelectEl,
+        select: breedSelect,
       });
-      breedSelectEl.classList.remove('is-hidden'); 
+      breedSelect.classList.remove('is-hidden'); 
 
     })
     .catch(onError);
