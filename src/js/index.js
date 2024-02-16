@@ -66,6 +66,5 @@ breedSelect.addEventListener('change', createMarkup);
 function onError() {
   breedSelect.classList.remove('is-hidden');
   error.classList.replace('loader', 'is-hidden');
-
-   Notify.failure('Oops! Something went wrong! Try reloading the page or select another cat breed!');
+  Notify.failure('Oops! Something went wrong! Try reloading the page or select another cat breed!');
 }
